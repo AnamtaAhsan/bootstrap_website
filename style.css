@@ -1,0 +1,61 @@
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  .left-img {
+    background-image: url('https://images.unsplash.com/photo-1505843799824-390a3f9a0f3b');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+  }
+  .btn-red {
+    background-color: red;
+    color: white;
+    border: none;
+  }
+  .btn-red:hover {
+    background-color: darkred;
+  }
+  .hero-text {
+    padding: 4rem;
+  }
+  .navbar{
+    float: center;
+  }
+
+  img {
+    height: 64px;
+  }
+  a {
+    text-decoration: none;
+  }
+  .project-item {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .project-item img {
+    width: 100%;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+  
+  .project-item:hover img {
+    transform: scale(1.05);
+  }
+  
+  .overlayed .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .service-icon {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  .service-box {
+    text-align: center;
+    padding: 20px;
+  }
